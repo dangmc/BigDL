@@ -17,3 +17,6 @@ saver = tf.train.import_meta_graph(graph)
 with tf.Session() as sess:
     saver.restore(sess, ckpt)
     dump_model(path=path, sess=sess, ckpt_file=ckpt)
+
+
+https://zeltser.com/malware-sample-sources/
